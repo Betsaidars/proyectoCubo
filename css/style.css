@@ -1,0 +1,86 @@
+:root{
+--Softblue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--Main: hsl(217, 54%, 11%);
+--Card: hsl(216, 50%, 16%);
+--Line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+
+html{
+    background-color: var(--Main);
+}
+body{
+    background-color: var(--Card);
+    width: 90%;
+    margin-left: 1.2rem;
+    height: 44rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    padding-top: 1rem;
+}
+.contenedor{
+    background-image: url(../images/image-equilibrium.jpg);
+    width: 90%;
+    height: 20rem;
+    background-size: cover;
+    margin-left: 1.2rem;
+    border-radius: 1rem;
+}
+.informacion{
+    margin-left: 1.5rem;
+}
+.informacion h2{
+    color: var(--White);
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    margin-top: 1.5rem;
+}
+.informacion h2:hover{
+    color: var(--Cyan);
+}
+.informacion p{
+    color: var(--Softblue);
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    margin-right: 2.3rem;
+    font-weight: lighter;
+}
+.eth{
+    margin-left: 1.5rem;
+    color: var(--Cyan);
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    margin-top: 1.5rem;
+    border-bottom: 0.1rem solid var(--Line);
+    margin-right: 1.5rem;
+}
+.eth span{
+    color: var(--Softblue);
+    margin-left: 4rem;
+}
+.eth img{
+    margin-right: 0.3rem;
+}
+.icono{
+    margin-left: 1.5rem;
+    display: flex;
+}
+.icono img{
+    border: 1px solid var(--White);
+    border-radius: 5rem;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+.icono p{
+    color: var(--Softblue);
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.icono span{
+    color: var(--White);
+}
